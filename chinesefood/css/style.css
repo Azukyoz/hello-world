@@ -253,7 +253,7 @@ h3.menu-item-tile {
 
 @media (min-width: 1200px){
     .container .jumbotron{
-        background: url('/images/jumbotron_1200.jpg') no-repeat;
+        background: url('./images/jumbotron_1200.jpg') no-repeat;
         height: 675px;
     }
 }
