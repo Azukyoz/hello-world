@@ -1,0 +1,3 @@
+# Four-Corners-Javascript-Challenge
+Four corners is a children’s game, often played in primary/elementary schools. The game can be played in a classroom. One player stand in the middle of the room with a blindfold. All the other participants choose one of the four corners of the room. For the purpose of this game we will call the four corners of the room North, East, South and West. The central player, “it”, designates one corner of the room. All the participants standing in this corner are out of the game. The remaining participants then move to a different corner of their choice and the game carries on until all participants have been caught.
+The game should carry on until all either one player is remaining or all players have been taken out.
