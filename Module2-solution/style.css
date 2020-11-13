@@ -97,8 +97,9 @@
 }
 
 h1 {
+    margin: 50px;
     text-align: center;
-    margin-bottom: 50px;
+    
 }
 
 section {
