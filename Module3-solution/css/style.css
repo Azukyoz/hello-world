@@ -1,0 +1,60 @@
+
+.containter, .food {
+    background-color: gray;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+h2, h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.navbar-nav li {
+    
+    border: 2px solid black;
+    color: black;
+    
+}
+
+h1 {
+    margin-left: 15px;
+}
+
+.navbar-nav{
+    margin: 0px;
+    
+}
+
+
+
+button#menuButton.navbar-toggle {
+    height:45px;
+}
+
+button#menuButton.navbar-toggle.span {
+    color: red;
+}
+
+a {
+    color: black;
+}
+
+a:hover, a:link{
+    text-decoration: none;
+}
+
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+.navbar{
+    background-color: gray;
+}
+
+
+.navbar-collapse {
+    padding: 0;
+}
