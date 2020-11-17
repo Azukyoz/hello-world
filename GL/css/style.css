@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
@@ -39,10 +39,21 @@ footer h4{
 }
 
 .navbar-nav {
-  
     float: right;
 }
-            
+
+.nav .navbar-default {
+    width:100%;
+}
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 767px) {
     ul {
@@ -52,23 +63,10 @@ footer h4{
     .navbar-collapse{
         margin: 0;
         padding: 0;
-        overflow: none;
-        
+        overflow: none;  
     }
-    .nav, .navbar-nav {
-        margin: 0;
-        padding: 0;
-    }
-
-
-
-
+ 
 }
-
-
-
-
-
 
 
  @media (max-width: 991px) {
@@ -96,3 +94,4 @@ footer h4{
     footer h4{
         position: relative;
     } 
+}
