@@ -8,3 +8,10 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
     }
   });
 });
+
+
+  $(window).on("load",function(){
+    $(".loader-wrapper").fadeOut("slow");
+  });
+
+
