@@ -15,3 +15,6 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
   });
 
 
+function myFunction() {
+    document.getElementById("showCode").classList.toggle("show");
+}

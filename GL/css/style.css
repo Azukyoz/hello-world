@@ -74,6 +74,28 @@ body {
     background-color: rgb(65, 65, 65);
 }
 
+.media{
+    position: absolute;
+    right: 15px;
+    top: 30%;
+    width: 50px;
+}
+
+
+.weChat-code {
+    display: none;
+    width: 200px;
+    position: absolute;
+    right: 60px;
+    top: 30%;
+}
+
+
+.weChat:hover{
+    cursor: pointer;
+}
+
+
 img {
     width: 89%;
     margin: 0 5%;
@@ -149,4 +171,6 @@ footer h4{
     footer h4{
         position: relative;
     } 
-} */
+} 
+
+
