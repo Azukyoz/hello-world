@@ -81,19 +81,33 @@ body {
     width: 50px;
 }
 
-
-.weChat-code {
-    display: none;
-    width: 200px;
+.container{
     position: absolute;
-    right: 60px;
+    right: 15px;
     top: 30%;
+    width: 50px;
 }
-
-
 .weChat:hover{
     cursor: pointer;
 }
+
+
+.dropdown-menu {
+    border: none;
+}
+
+.btn-primary{
+    background-color: white;
+    border: none;
+}
+
+button {
+    border: none;
+    background-color: white;
+    
+}
+
+
 
 
 img {
@@ -111,7 +125,6 @@ h1 {
 
 
 footer h4{
-    position: absolute;
     bottom: 0;
     width: 100%;
     text-align: center;
@@ -174,3 +187,21 @@ footer h4{
 } 
 
 
+
+
+.Apps {
+    text-align: center;
+    margin-bottom: 60px;
+    
+}
+
+input {
+    color: black;
+
+}
+
+label {
+    display: block;
+    
+    
+}

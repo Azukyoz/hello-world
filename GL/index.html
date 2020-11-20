@@ -46,23 +46,57 @@
         </div>
 </div>
 
+<div class="contianer-fuild">
+  <div class="row">
+      <div class="Apps col-md-4">
+        <h3> Mass </h3>
+          <input type="number" id="lbs" placeholder="lbs" oninput="lbToKg(this.value)" onchange="lbToKg(this.value)">
+          <label for="lbs">Pound</label>
 
-<footer>
-    <div class="copyright">
-        <h4>Guangchong Li 2020 &copy</h4>
-    </div>   
-</footer>
 
-<!-- <div class="media">
-  <img class="weChat" onclick="myFunction()" src="images/weChat.png" alt="">
+          <input type="number" id="kgs" placeholder="kgs" oninput="kgToLb(this.value)" onchange="kgToLb(this.value)">
+          <label for="kgs">Kilogram</label>
+      </div>
+      
+      <div class="Apps col-md-4">
+        <h3>Temperature</h3>
+        <input type="number" id="celsius" placeholder="C" oninput="cToF(this.value)" onchange="cToF(this.value)">
+        <label for="celsius">Celsius</label>
+
+        <input type="number" id="fahrenheit" placeholder="F" oninput="fToC(this.value)" onchange="fToC(this.value)">
+        <label for="fahrenheit">Fahrenheit</label>
+      </div>
+
+      <div class="Apps col-md-4">
+        <h3> Distance </h3>
+          <input type="number" id="mile" placeholder="miles" oninput="mileToKilometer(this.value)" onchange="mileToKilometer(this.value)">
+          <label for="celsius">Mile</label>
+          <input type="number" id="kilometer" placeholder="kilometers" oninput="kilometerToMile(this.value)" onchange="kilometerToMile(this.value)">
+          <label for="fahrenheit">Kilometer</label>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
 </div>
 
-<div class="weChat-code" id="showCode">
-  <img src="images/weChat-code.png" alt="">
-</div> -->
+
+<footer>
+  <div class="copyright">
+      <h4>Guangchong Li 2020 &copy</h4>
+  </div>   
+</footer>
 
 
-<script src="./src/qrCodeScanner.js"></script>
+
+
+
+
+
+
+
 <div class="loader-wrapper">
   <span class="loader"><span class="loader-inner">
 </div>
