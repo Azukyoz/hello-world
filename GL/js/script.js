@@ -22,27 +22,27 @@ function myFunction() {
 
 
 function lbToKg(valNum) {
-  document.getElementById("kgs").value = valNum/2.205;
+  document.getElementById("kgs").value = (valNum/2.205).toFixed(2);
 }
 
 function kgToLb(valNum) {
-  document.getElementById("lbs").value = valNum*2.205;
+  document.getElementById("lbs").value = (valNum*2.205).toFixed(2);
 }
 
 function cToF(valNum) {
-  document.getElementById("fahrenheit").value = valNum*9/5+32;
+  document.getElementById("fahrenheit").value = (valNum*9/5+32).toFixed(2);
 }
 
 function fToC(valNum) {
-  document.getElementById("celsius").value = (valNum-32)*5/9;
+  document.getElementById("celsius").value = ((valNum-32)*5/9).toFixed(2);
 }
 
 function mileToKilometer(valNum) {
-  document.getElementById("kilometer").value = valNum*1.609;
+  document.getElementById("kilometer").value = (valNum*1.609).toFixed(2);
 }
 
 function kilometerToMile(valNum) {
-  document.getElementById("mile").value = valNum/1.609;
+  document.getElementById("mile").value = (valNum/1.609).toFixed(2);
 }
 
 
